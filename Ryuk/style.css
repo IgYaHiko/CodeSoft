@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+
+}
+.back {
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.back img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.top {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+
+}
+.back img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.workSpace {
+    color: #ddd;
+    position: relative;
+    height: 100vh;
+    width: 80%;
+    max-width: 1920px;
+    
+    margin: 0 auto;
+}
+.nav {
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nleft {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav a {
+    pointer-events: all;
+    color: #ddd;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.7vw;
+    cursor: pointer;
+    
+    
+    
+
+}
+.name {
+    pointer-events: all;
+    cursor: pointer;
+    font-size: 1.6vw;
+    font-weight: 700;
+    color: #ddd;
+}
+.hero {
+    
+    position: relative;
+    top: 35%;
+    left: 0%;
+    /* transform: translate(0%,50%); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    height: 100px;
+}
+.lhero {
+   
+    min-width: 50%;
+   
+}
+.lhero .elem {
+    position: relative;
+    overflow: hidden;
+    height: 9vw;
+}
+.lhero .elem h1:nth-child(1) {
+    top: 0;
+}
+.lhero h1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: .9;
+    font-size: 10vw;
+    font-weight: 100;
+    font-family: "kajiro";
+}
+
+.rhero {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+   
+}
+.lhero button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    padding: 0.2vw 2vw;
+    font-family: "kajiro";
+    font-size: 3vw;
+    font-weight: 100;
+    outline: none;
+    border: 1px solid black;
+    background-color: #ddd;
+    margin-top: 2vw;
+}
+
+.rhero p{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+    
+}
+.rhero .imgdiv {
+    pointer-events: all;
+    margin: 0 auto;
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-image: url("gut.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.p {
+    margin-top: 50px;
+}
+/* .rhero .imgdiv , img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
